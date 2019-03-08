@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>table,th,td{
+border:1px solid black;
+border-collapse: collapse;}
+th,td{
+padding: 5px;}
+
+</style>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1> The XMLHttpRequest Object</h1>
+<button type="button" onclick="loadDoc()">Get my CD 
+</body>
+</html>
