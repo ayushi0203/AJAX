@@ -13,6 +13,18 @@ padding: 5px;}
 </head>
 <body>
 <h1> The XMLHttpRequest Object</h1>
-<button type="button" onclick="loadDoc()">Get my CD 
+<button type="button" onclick="loadDoc()">Get my CD  collection</button>
+<br>
+<br>
+<table id="demo"></table>
+<script>
+function load(){
+	var xhttp=new XMLHttpRequest();
+	xhttp.onreadystatechange=function(){
+		if( this.readystate== 4&& this.status==200){
+			myFunction(this);
+		}
+	};
+}</script>
 </body>
 </html>
